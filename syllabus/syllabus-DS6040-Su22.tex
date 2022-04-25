@@ -1,0 +1,172 @@
+\documentclass[11pt]{article}
+
+\setlength{\textheight}{9.2in} \setlength{\headheight}{-.75in}
+\setlength{\textwidth}{6.5in} \setlength{\oddsidemargin}{0in}
+
+\usepackage{verbatim}
+\thispagestyle{empty}
+
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+    pdftitle={Overleaf Example},
+    pdfpagemode=FullScreen,
+    }
+
+\urlstyle{same}
+
+
+\begin{document}
+
+\noindent
+    {\large \bf DS 6040: Bayesian Machine Learning} \hfill
+    {\large \bf Course Syllabus} \hfill
+    {\large \bf Summer 2022}
+
+\bigskip
+
+\begin{tabular}{lll}
+   Professor: &  Taylor R. Brown PhD \\
+   Office Hours: & TBD\\
+%   Office:  &  112 Halsey Hall  \\
+     Email: & \verb+trb5me@virginia.edu+ \\
+\end{tabular}
+
+\vspace*{.1in}
+
+\begin{tabular}{lll}
+   Course Assistants: &  TBD  \\
+   Office Hours: & TBD\\
+%   Office:  &  112 Halsey Hall  \\
+     Email: & \verb+tbd@virginia.edu+\\
+\end{tabular}
+
+\begin{description}
+
+%------------------------------------------------------------------------------%
+\item[Course Overview:] 
+
+Bayesian inferential methods provide a foundation for machine learning under conditions of uncertainty. Bayesian machine learning techniques can help us to more effectively address the limits to our understanding of real world problems. 
+
+This class covers a variety of powerful techniques including 
+
+\begin{enumerate}
+\item the foundations of Bayesian inference,
+\item conjugate families,
+\item naive Bayes classifiers,
+\item Bayesian supervised learning,
+\item Bayesian graphical models, 
+\item Variational approximations to the posterior,
+\item optimization algorithms such as the expectation maximization (EM) algorithm, and
+\item Markov chain Monte Carlo algorithms.
+\end{enumerate}
+
+%------------------------------------------------------------------------------%
+\item[Prerequisites:] This course will be mathematical. You should have a good grasp of multivariate calculus and linear
+algebra. A previous course in statistics covering multiple linear regression, and familiarity with programming in Python is also required.
+
+%------------------------------------------------------------------------------%
+\item[Required Texts:]  
+
+Here are the core texts:
+
+\begin{itemize}
+\item Barber, D., \textit{Bayesian Reasoning and Machine Learning} (Cambridge: Cambridge University Press, 2012).
+\item Theodoridis, S., \textit{Machine Learning: A Bayesian and Optimization Perspective } (Netherlands:
+Elsevier Science, 2015).
+\item Robert, C.,. \textit{The Bayesian Choice: From Decision-Theoretic Foundations to Computational
+Implementation} (New York: Springer, 2007).
+\item Bishop, C.M., Bishop, P.o.N.C.C.M., \textit{Pattern Recognition and Machine Learning} (Singapore:
+Springer, 2006).
+\end{itemize}
+
+%------------------------------------------------------------------------------%
+\item[Optional Texts:]  
+
+Here are some supplementary texts.
+
+\begin{itemize}
+\item DeGroot, Morris, \textit{Optimal Statistical Decisions} (New York: McGraw-Hill, 1970).
+\item Gelman, Andrew, John B.Carlin, Hal S. Stern,and Donald B. Rubin, \textit{Bayesian Data Analysis,3rd
+Ed.} (Boca Raton, FL: Chapman \& Hall/CRC, 201).3
+\item Kruske, John K., \textit{Doing Bayesian Data Analysis: A Tutorial with R, JAGS, and Stan} (London:
+Academic Press, 2015)
+\item Martin, Osvaldo, \textit{Bayesian Analysis with Python, 2nd Ed.} (Birmingham, UK:Packt, 2018)
+\item Ross,Sheldon, \textit{Introduction to Probability Models, 9th Ed.} (Burlington,MA: Academic Press,
+2007)
+\end{itemize}
+
+%------------------------------------------------------------------------------%
+\item[Learning Outcomes:]  
+
+Upon successful completion of this course, you will be able to:
+
+\begin{enumerate}
+\item Apply the appropriate probabilistic model to based on the characteristics of the problem.
+\item Demonstrate the ability to convert actual data science problems from different domains into formal, mathematical representations.
+\item Demonstrate the ability to apply appropriate analytical or computational solutions to obtain solutions to real problems .
+\item Use results from current applied technical papers and video presentations, and understand the latest methods and the newest discoveries in Bayesian machine learning.
+\end{enumerate}
+
+
+%------------------------------------------------------------------------------%
+\item[Delivery Mode Expectations:]  
+
+Web-based with weekly live meetings.
+
+%------------------------------------------------------------------------------%
+\item[Required Technical Resources and Technical Components:]  
+
+Can I use Zoom instead of Cisco?
+
+TODO
+
+Download Anaconda \url{https://www.anaconda.com/products/distribution}
+
+%------------------------------------------------------------------------------%
+\item[Evaluation Standards and Assessments:] 
+
+You will be scored on five categories of assignments: homework, projects, quizzes and participation. Assignments are to be submitted through Collab. 
+
+\begin{itemize}
+\item All five {\bf homework} exercises provide problem-solving experiences that illustrate the concepts of Bayesian machine learning. Hence, they provide the opportunity to demonstrate understanding of class material. These assignments will include both analytical problem solving and data analysis. For both parts, student answers should be written out, showing results with tables and graphs and explanations in the text. These assignments are worth 50\% of your grade, and they occur in Modules 2-12.
+\item {\bf Participation} makes the course more interactive and enriching and includes module discussions, responses to peer posts, and attendance, participation, and answering questions in live sessions, as well as helping others answer questions. Your participation score will be worth 10\% of your grade. 
+\item This course has multiple small {\bf quizzes} in Modules 1 and 2 which permit multiple attempts with hints, and one cumulative quiz at the end of the course containing short answer questions. Example questions for the cumulative will be provided during the live sessions. Quizzes are worth 15\% of your final grade. 
+\item The goal of the {\bf project} is for students to apply Bayesian machine learning to a real dataset in an advanced way to ensure students can apply probabilistic reasoning to a nontrivial problem of their choosing. The project will be graded based on the approach used and the demonstration of the students’ understanding of probabilistic modeling and not on the comparative performance of different techniques. Students will work in groups of two to four people of their choosing, but may also choose to work alone with permission from the instructor. Students will first submit a one-page project proposal describing the problem, data, and approach, and the instructor will provide feedback. Students will present their projects as a group and include slides that describe the problem, approach, results, and their conclusions and recommendations. Your project score will be worth 25\% of your final grade. 
+\end{itemize}  
+
+I will use the default letter grade thresholds to calculate your final grade: \url{https://virginia.service-now.com/its/?id=itsweb_kb_article&sys_id=1153c16fdba41f444f32fb671d961934} A B- is the lowest satisfactory grade for graduate credit.
+
+%------------------------------------------------------------------------------%
+\item[Class Schedule:]  
+
+Livesessions will be held on Wednesday evenings from 7:15–8:15pm and 8:30-9:30 EDT. Specific dates are in the "Live Sessions" tab in Collab.
+
+%------------------------------------------------------------------------------%
+\item[Communication and Student Response Time:]  
+
+
+Discussion boards are setup in each module and are designed to be a place where students can reach out to peers and instructors to ask questions related to content and technology. Students are encouraged to check the discussion boards daily for updates and correspondence. Specific queries regarding your progress should be addressed to me via email, and you will usually receive a response within 24 hours. Throughout our time together, the sooner you inform me of any problem that may affect your attendance or performance, the better the chance we have of solving it together.
+
+
+%------------------------------------------------------------------------------%
+\item[Course Evaluations:]  
+
+Students may be expected to participate in an online mid-term evaluation. Students are expected to complete the online end-of-class evaluation. As the semester comes to a close, students will receive an email with instructions for completing this. Student feedback will be very valuable to the school, the instructor, and future students. We ask that all students please complete these evaluations in a timely manner. Please be assured that the information you submit online will be anonymous and kept confidential.
+
+%------------------------------------------------------------------------------%
+\item[University of Virginia Honor System:]  
+
+All work should be pledged in the spirit of the honor system at the University of Virginia. The instructor will indicate which assignments and activities are to be done individually and which permit collaboration. The following pledge should be written out at the end of all quizzes, examinations, individual assignments, and papers: “I pledge that I have neither given nor received help on this examination (quiz, assignment, etc.).” The pledge must be signed by the student. For more information, visit \url{www.virginia.edu/honor}
+
+%------------------------------------------------------------------------------%
+\item[Accomodations:]  
+
+It is my goal to create a learning experience that is as accessible as possible. If you anticipate any issues related to the format, materials, or requirements of this course, please meet with me outside of class so we can explore potential options. Students with disabilities may also wish to work with the Student Disability Access Center to discuss a range of options to removing barriersin this course, including official accommodations. Please visit their website for information on this process and to apply for services online: \url{sdac.studenthealth.virginia.edu}. 
+
+\end{description}
+
+\end{document}
