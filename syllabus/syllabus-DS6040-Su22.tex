@@ -30,9 +30,10 @@
 
 \begin{tabular}{lll}
    Professor: &  Taylor R. Brown PhD \\
-   Office Hours: & TBD\\
+   Office Hours: & Mondays at 6 (Zoom: TBD) \\
 %   Office:  &  112 Halsey Hall  \\
      Email: & \verb+trb5me@virginia.edu+ \\
+     Slack handle: & Taylor 
 \end{tabular}
 
 \vspace*{.1in}
@@ -44,29 +45,39 @@
      Email: & \verb+tbd@virginia.edu+\\
 \end{tabular}
 
+\vspace*{.1in}
+
+
+\begin{tabular}{lll}
+   Slack: & \verb+shorturl.at/nAHW3+ (temp. invite) \\
+   Gradescope: &\verb|gradescope.com| (entry code J35273)\\
+   Anaconda: &\verb|shorturl.at/invAW| \\
+   Collab: &\verb|https://collab.its.virginia.edu/portal| \\
+   Schedule: & \verb|shorturl.at/gtCK1|
+\end{tabular}
+
 \begin{description}
 
 %------------------------------------------------------------------------------%
 \item[Course Overview:] 
 
-Bayesian inferential methods provide a foundation for machine learning under conditions of uncertainty. Bayesian machine learning techniques can help us to more effectively address the limits to our understanding of real world problems. 
-
-This class covers a variety of powerful techniques including 
-
-\begin{enumerate}
-\item the foundations of Bayesian inference,
-\item conjugate families,
-\item naive Bayes classifiers,
-\item Bayesian supervised learning,
-\item Bayesian graphical models, 
-\item Variational approximations to the posterior,
-\item optimization algorithms such as the expectation maximization (EM) algorithm, and
-\item Markov chain Monte Carlo algorithms.
-\end{enumerate}
+Bayesian approaches explicitly account for the uncertainty present in most machine learning problems. This uncertainty derives from both randomness in observational processes and incompleteness in problem understanding. This course focuses on building models from data that provide predictions and quantify the uncertainty in these predictions. Students will learn how to think probabilistically and apply this understanding to problems in a variety of areas.
 
 %------------------------------------------------------------------------------%
 \item[Prerequisites:] This course will be mathematical. You should have a good grasp of multivariate calculus and linear
-algebra. A previous course in statistics covering multiple linear regression, and familiarity with programming in Python is also required.
+  algebra. A previous course in statistics covering multiple linear regression, and familiarity with programming in Python is also required.
+
+%------------------------------------------------------------------------------%
+\item[Learning Outcomes:]  
+
+Upon successful completion of this course, you will be able to:
+
+\begin{enumerate}
+\item Apply the appropriate probabilistic model to based on the characteristics of the problem.
+\item Demonstrate the ability to convert actual data science problems from different domains into formal, mathematical representations.
+\item Demonstrate the ability to apply appropriate analytical or computational solutions to obtain solutions to real problems .
+\item Use results from current applied technical papers and video presentations, and understand the latest methods and the newest discoveries in Bayesian machine learning.
+\end{enumerate}
 
 %------------------------------------------------------------------------------%
 \item[Required Texts:]  
@@ -99,43 +110,29 @@ Academic Press, 2015)
 2007)
 \end{itemize}
 
-%------------------------------------------------------------------------------%
-\item[Learning Outcomes:]  
-
-Upon successful completion of this course, you will be able to:
-
-\begin{enumerate}
-\item Apply the appropriate probabilistic model to based on the characteristics of the problem.
-\item Demonstrate the ability to convert actual data science problems from different domains into formal, mathematical representations.
-\item Demonstrate the ability to apply appropriate analytical or computational solutions to obtain solutions to real problems .
-\item Use results from current applied technical papers and video presentations, and understand the latest methods and the newest discoveries in Bayesian machine learning.
-\end{enumerate}
 
 
 %------------------------------------------------------------------------------%
 \item[Delivery Mode Expectations:]  
 
-Web-based with weekly live meetings.
+Web-based with weekly live meetings. See the ``Online Meetings" tab on Collab for information about how to connect.
 
 %------------------------------------------------------------------------------%
 \item[Required Technical Resources and Technical Components:]  
 
-Can I use Zoom instead of Cisco?
-
-TODO
-
-Download Anaconda \url{https://www.anaconda.com/products/distribution}
+We will be running Python code in Jupyter Notebooks. I recommend that you download Anaconda (see above for link) because it bundles Python up with a bunch of third party packages and IDEs. In other words, it's a one-time download. 
 
 %------------------------------------------------------------------------------%
 \item[Evaluation Standards and Assessments:] 
 
-You will be scored on five categories of assignments: homework, projects, quizzes and participation. Assignments are to be submitted through Collab. 
+You will be scored on several categories of assignments: homeworks, projects, and participation. Assignments are to be submitted through Gradescope. {\bf All deadlines are visible on Gradescope.}
 
 \begin{itemize}
-\item All five {\bf homework} exercises provide problem-solving experiences that illustrate the concepts of Bayesian machine learning. Hence, they provide the opportunity to demonstrate understanding of class material. These assignments will include both analytical problem solving and data analysis. For both parts, student answers should be written out, showing results with tables and graphs and explanations in the text. These assignments are worth 50\% of your grade, and they occur in Modules 2-12.
-\item {\bf Participation} makes the course more interactive and enriching and includes module discussions, responses to peer posts, and attendance, participation, and answering questions in live sessions, as well as helping others answer questions. Your participation score will be worth 10\% of your grade. 
-\item This course has multiple small {\bf quizzes} in Modules 1 and 2 which permit multiple attempts with hints, and one cumulative quiz at the end of the course containing short answer questions. Example questions for the cumulative will be provided during the live sessions. Quizzes are worth 15\% of your final grade. 
-\item The goal of the {\bf project} is for students to apply Bayesian machine learning to a real dataset in an advanced way to ensure students can apply probabilistic reasoning to a nontrivial problem of their choosing. The project will be graded based on the approach used and the demonstration of the students’ understanding of probabilistic modeling and not on the comparative performance of different techniques. Students will work in groups of two to four people of their choosing, but may also choose to work alone with permission from the instructor. Students will first submit a one-page project proposal describing the problem, data, and approach, and the instructor will provide feedback. Students will present their projects as a group and include slides that describe the problem, approach, results, and their conclusions and recommendations. Your project score will be worth 25\% of your final grade. 
+\item All five {\bf homework} exercises provide problem-solving experiences that illustrate the concepts of Bayesian machine learning. Hence, they provide the opportunity to demonstrate understanding of class material. These assignments will include both analytical problem solving and data analysis, but I place more emphasis on the data analysis. For both parts, your answers should be written out, showing results with tables and graphs and explanations in the text. These assignments are worth 50\% of your grade, and they occur in Modules 2-12. You will have about two weeks to complete each one of these assignments. One of the goals of this course is to learn how to present the results of analysis in a way that non-expert stakeholders can easily understand. To that end, it is not sufficient to simply provide code and plots, even if they are correct. Take time to interpret results (as is reasonable, you don’t need to provide lengthy prose if the question asks for one number), and to write well commented code.
+\item {\bf Participation} makes the course more interactive and enriching and includes module discussions, responses to peer posts, and attendance, participation, and answering questions in live sessions, as well as helping others in Slack. Your participation score will be worth 15\% of your grade. 
+\item The goal of the {\bf project paper} is for you to apply Bayesian machine learning to a real dataset in an advanced way, and it counts for 20\% of your final grade. The grading will verify you can apply probabilistic reasoning to a nontrivial problem of your own choosing. The paper will be graded based on the suitability of the chosen approach and the demonstration of your theoretical and technical understanding of your chosen method. It will not be graded on different performance metrics such as forecasting accuracy, computational efficiency, etc. You will work in groups of two to four people of your own choosing, but you may also choose to work alone (just be sure to talk to me about this, first). You will start by submitting a one-page project proposal describing the problem, data, and what you think you will use as your method of analysis. I will provide feedback on this. The final paper should be 4-6 pages. Please see Gradescope for more information about deadlines. 
+\item You will also give a 5-7 minute recorded {\bf project presentation}. This will be worth 15\% of your final grade. Your presentation
+will be graded on how well it summarizes and communicates the findings from your written report, not on your theoretical understanding or computational achievements. All group members will receive the same project grades.
 \end{itemize}  
 
 I will use the default letter grade thresholds to calculate your final grade: \url{https://virginia.service-now.com/its/?id=itsweb_kb_article&sys_id=1153c16fdba41f444f32fb671d961934} A B- is the lowest satisfactory grade for graduate credit.
@@ -143,13 +140,12 @@ I will use the default letter grade thresholds to calculate your final grade: \u
 %------------------------------------------------------------------------------%
 \item[Class Schedule:]  
 
-Livesessions will be held on Wednesday evenings from 7:15–8:15pm and 8:30-9:30 EDT. Specific dates are in the "Live Sessions" tab in Collab.
+Livesessions will be held on Wednesday evenings from 7:15–8:15pm and 8:30-9:30 EDT. Specific dates are in Google sheets schedule that is linked to above. All official deadlines are provided via Gradescope. Zoom room connection information is available via Collab.
 
 %------------------------------------------------------------------------------%
 \item[Communication and Student Response Time:]  
 
-
-Discussion boards are setup in each module and are designed to be a place where students can reach out to peers and instructors to ask questions related to content and technology. Students are encouraged to check the discussion boards daily for updates and correspondence. Specific queries regarding your progress should be addressed to me via email, and you will usually receive a response within 24 hours. Throughout our time together, the sooner you inform me of any problem that may affect your attendance or performance, the better the chance we have of solving it together.
+Check Slack as often as you can and participate in as many discussions as you can. It is intended to be a place where you can reach out to each other and me to ask questions related to content and technology. Questions containing personal information can be emailed to me or sent to me via a direct message in Slack. Throughout our time together, the sooner you inform me of any problem that may affect your attendance or performance, the better the chance we have of solving it together.
 
 
 %------------------------------------------------------------------------------%
